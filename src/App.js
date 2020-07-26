@@ -1,11 +1,10 @@
 import React from "react";
-import Stripe from "./Stripe";
+import StripeContainer from "./Stripe/StripeContainer";
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Stripe Payments</h1>
-      <Stripe />
+      <StripeContainer />
     </div>
   );
 };
